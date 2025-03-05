@@ -1,0 +1,57 @@
+/* Creating css vairable */
+:root {
+    --skyblue: #87cefa;
+    --naveyBlue: #14AEA8;
+    --darkBlue: #12294C;
+}
+
+/* css designs */
+#navBars {
+    width: fit-content;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 25px;
+    background-color: inherit;
+}
+
+#dropdown {
+    position: relative;
+    background-color: inherit;
+}
+
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+#dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#navBars a {
+    color: inherit;
+}
+
+#navBars li:hover {
+    color: var(--naveyBlue); /* using css variable */
+}
+
+.dropdown-menu li {
+    padding: 5px;
+}
+
+.dropdown-menu li:hover {
+    border-radius: 5px;
+    border: 1px solid var(--naveyBlue); /* using css variable */
+}
+
+.active {
+    font-weight: bold;
+}
