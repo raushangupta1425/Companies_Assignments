@@ -5,7 +5,7 @@ Store all companies assignments.
 
 1. Dacoid Digital - Quize App : https://dacoid-digital-quiz-app-sage.vercel.app/
 2. SkoolOfCode - AI Chatbot : https://skc-raushangupta1425.vercel.app/
-3. Startup - Gov. Exam Preparation : kr3.onrender.com
+3. Startup - Gov. Exam Preparation : https://kr3.onrender.com
 4. My YouTube Channel Website - All videos availabel : https://raushangupta1425.github.io/WebsiteDevelopment/
 
 
