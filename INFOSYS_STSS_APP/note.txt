@@ -1,0 +1,52 @@
+github education
+claude
+
+step 1 - ffmpeg
+step 2 - whisper-openai model - small
+step 3 - googletrans - translator
+step 4 - edge -tts
+step 5 - subprocess-ffmpeg
+overall integration- streamlit
+
+1. Real-Time Translation & Voice Generation
+
+Process speech on-the-fly and generate translated voice instantly.
+
+
+
+2. Emotion Preservation in Translation
+
+Ensure the translated voice maintains the same emotions as the original (happy, angry, sad).
+
+
+
+3. Multi-Speaker Detection & Handling
+
+If multiple people speak in a video, detect and translate each speaker's voice separately.
+
+
+
+4. Custom Voice Selection
+
+If a well-known voice isn't detected, let the user choose from pre-built celebrity voices
+1. Voice Recognition & Matching (Shah Rukh Khan Example)
+
+Use pre-trained speaker recognition models like SpeakerNet, Resemblyzer, or Wav2Vec2.
+
+Maintain a database of well-known voices (e.g., Shah Rukh Khan, Amitabh Bachchan, etc.).
+
+Compare the uploaded audio with this database and identify the closest match.
+
+
+2. Voice Cloning for Translation
+
+Once the speaker is identified, generate a translation in the same voice.
+
+Use models like ElevenLabs, OpenAI's Voice Engine, or Coqui AI TTS to genera
+
+
+Github repo link: https://docs.google.com/spreadsheets/d/1rb-EUBnyamzcGkVUsa_LNHtw21s40fgcUAf19GBNSDc/edit?usp=sharing
+agile sheet : https://docs.google.com/spreadsheets/d/1eiVzZBMTikgCKEI_pJ1FjqVi6lS8bfdAAVerLqEC6uo/edit?usp=sharing
+
+Voice Cloning
+smallest ai, ElevenLabs

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    padding: 2rem;
+    background-color: #F8FAFC;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2em;
+}
+
+#downloadLink {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 13px;
+}
+
+form input {
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 20px;
+    border-radius: 13px;
+}
+
+form button {
+    width: 20%;
+    right: 0;
+    padding: 0.6rem;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #4e4e4e;
+}

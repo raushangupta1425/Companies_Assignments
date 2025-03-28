@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Downloader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='YTVideoDownload.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h3>YouTube Video Download</h3>
+        <label for="downloadLink" class="downloadBox">
+            <form action="#" id="downloadForm">
+                <input type="search" id="downloadLink" placeholder=" Paste the YouTube video link...">
+                <button type="submit" id="downloadBtn">Download</button>
+            </form>
+        </label>
+        <br>
+        <div id="videoDisplay" style="display: none;">
+            <h2>Video</h2>
+            <iframe id="videoFrame" width="100%" height="500" src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='YTVideoDownload.js') }}"></script>
+</body>
+</html>

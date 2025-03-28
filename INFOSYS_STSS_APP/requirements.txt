@@ -1,0 +1,10 @@
+ffmpeg-python
+SpeechRecognition
+pydub
+langchain
+langchain_google_genai
+edge_tts
+moviepy
+flask
+git+https://github.com/pytube/pytube.git
+yt-dlp
